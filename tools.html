@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tools | Cyber Saathi</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="logo">Cyber Saathi</div>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="learn.html">Learn</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><a href="tools.html">Tools</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- ========================================
+             HERO
+             ======================================== -->
+
+        <section class="tools-hero">
+
+    <div class="tools-hero-content">
+
+        <p class="section-label">
+            CYBER SAATHI TOOLKIT
+        </p>
+
+        <h1>
+            Tools to build<br>
+            <span>safer habits.</span>
+        </h1>
+
+        <p>
+            Simple tools designed to help students understand
+            their digital security and make safer choices online.
+        </p>
+
+    </div>
+
+</section>
+
+        <!-- ========================================
+             TOOL 01 — PASSWORD STRENGTH
+             ======================================== -->
+
+        <section class="tool-section">
+
+            <div class="tool-intro">
+
+                <p class="section-label">
+                    TOOL 01
+                </p>
+
+                <h2>
+                    Password<br>
+                    Strength Checker
+                </h2>
+
+                <p>
+                    Think your password is strong enough?
+                    Test it without sending it anywhere.
+                </p>
+
+            </div>
+
+
+            <div class="password-tool">
+
+                <label for="password-input">
+                    Enter a password
+                </label>
+
+
+                <div class="password-input-wrapper">
+
+                    <input
+                        type="password"
+                        id="password-input"
+                        placeholder="Enter a password..."
+                        autocomplete="off"
+                    >
+
+                    <button
+                        type="button"
+                        id="toggle-password">
+                        Show
+                    </button>
+
+                </div>
+
+
+                <!-- Strength Bar -->
+
+                <div class="strength-track">
+
+                    <div
+                        id="strength-bar"
+                        class="strength-bar">
+                    </div>
+
+                </div>
+
+
+                <h3 id="strength-title">
+                    Start typing to test your password
+                </h3>
+
+
+                <!-- Requirements -->
+
+                <div class="password-checks">
+
+                    <div id="check-length">
+                        <span>○</span>
+                        At least 12 characters
+                    </div>
+
+                    <div id="check-upper">
+                        <span>○</span>
+                        Contains uppercase letters
+                    </div>
+
+                    <div id="check-lower">
+                        <span>○</span>
+                        Contains lowercase letters
+                    </div>
+
+                    <div id="check-number">
+                        <span>○</span>
+                        Contains numbers
+                    </div>
+
+                    <div id="check-symbol">
+                        <span>○</span>
+                        Contains symbols
+                    </div>
+
+                </div>
+
+
+                <!-- Privacy -->
+
+                <div class="privacy-note">
+
+                    🔒 Your password is checked locally
+                    in your browser. Cyber Saathi does not
+                    store or send it anywhere.
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ========================================
+             TOOL 02 — SAFETY CHECKLIST
+             ======================================== -->
+
+        <section class="tool-section checklist-section">
+
+            <div class="tool-intro">
+
+                <p class="section-label">
+                    TOOL 02
+                </p>
+
+                <h2>
+                    Digital Safety<br>
+                    Checklist
+                </h2>
+
+                <p>
+                    Check the habits you already follow
+                    and discover where you can improve.
+                </p>
+
+            </div>
+
+
+            <div class="safety-checklist">
+
+
+                <label class="check-item">
+
+                    <input
+                        type="checkbox"
+                        class="safety-check">
+
+                    <span>
+                        I use unique passwords for important accounts.
+                    </span>
+
+                </label>
+
+
+                <label class="check-item">
+
+                    <input
+                        type="checkbox"
+                        class="safety-check">
+
+                    <span>
+                        I have enabled two-factor authentication.
+                    </span>
+
+                </label>
+
+
+                <label class="check-item">
+
+                    <input
+                        type="checkbox"
+                        class="safety-check">
+
+                    <span>
+                        I keep my operating system and apps updated.
+                    </span>
+
+                </label>
+
+
+                <label class="check-item">
+
+                    <input
+                        type="checkbox"
+                        class="safety-check">
+
+                    <span>
+                        I check links before clicking them.
+                    </span>
+
+                </label>
+
+
+                <label class="check-item">
+
+                    <input
+                        type="checkbox"
+                        class="safety-check">
+
+                    <span>
+                        I review my social media privacy settings.
+                    </span>
+
+                </label>
+
+
+                <label class="check-item">
+
+                    <input
+                        type="checkbox"
+                        class="safety-check">
+
+                    <span>
+                        I avoid sharing sensitive information publicly.
+                    </span>
+
+                </label>
+
+
+                <!-- Safety Score -->
+
+                <div class="safety-score">
+
+                    <p>
+                        Your Safety Score
+                    </p>
+
+                    <h3 id="safety-score-number">
+                        0%
+                    </h3>
+
+                    <div class="score-track">
+
+                        <div
+                            id="score-bar"
+                            class="score-bar">
+                        </div>
+
+                    </div>
+
+                    <p id="score-message">
+                        Start checking your habits.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ========================================
+             QUICK TIPS
+             ======================================== -->
+
+        <section class="quick-tips">
+
+            <p class="section-label">
+                QUICK REMINDERS
+            </p>
+
+            <h2>
+                Small habits.<br>
+                Big difference.
+            </h2>
+
+
+            <div class="tips-grid">
+
+
+                <div class="tip-card">
+
+                    <span>01</span>
+
+                    <h3>
+                        Pause before clicking.
+                    </h3>
+
+                    <p>
+                        Unexpected links deserve
+                        a second look.
+                    </p>
+
+                </div>
+
+
+                <div class="tip-card">
+
+                    <span>02</span>
+
+                    <h3>
+                        Protect your accounts.
+                    </h3>
+
+                    <p>
+                        Use strong passwords and
+                        enable 2FA.
+                    </p>
+
+                </div>
+
+
+                <div class="tip-card">
+
+                    <span>03</span>
+
+                    <h3>
+                        Think before sharing.
+                    </h3>
+
+                    <p>
+                        Your digital footprint can
+                        last a long time.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            © 2026 Cyber Saathi.
+            Built for safer digital communities.
+        </p>
+
+    </footer>
+
+<script>
+    console.log("Cyber Saathi Tools page is working!");
+</script>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
