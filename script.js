@@ -1,4 +1,4 @@
-unction checkPhishingLink() {
+function checkPhishingLink() {
 
     const feedback = document.getElementById("phishing-feedback");
 
